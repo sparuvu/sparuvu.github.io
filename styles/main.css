@@ -1,0 +1,19 @@
+body { 
+  font-family: "Helvetica Neue";  
+  background-image: url(../images/background.png) repeat-x; 
+}
+header {
+  
+}
+
+ul.projects li{
+  font-size: 15px;
+  
+}
+
+header {
+  border: 1px solid #686868;
+  height: 150px;
+  display: block;
+  border-radius: 3px;
+}
