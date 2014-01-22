@@ -1,0 +1,151 @@
+body {
+  font-family: "Helvetica Neue";
+  color: #686868;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(top, #686868, #000);
+}
+
+.name {
+  font-size: 100px;
+  margin: 0px;
+  font-weight: 100;
+  text-shadow: 1px 1px #5796DC;
+}
+
+.phone-number {
+  float: left;
+  padding-left: 20px;
+  color: #416314;
+  span {
+    color: #686868;
+    padding-left: 10px;
+  }
+}
+
+.address {
+  color: #B74418;
+  span {
+    color: #686868;
+    padding-left: 10px;
+  }
+}
+
+.email-address {
+  color: #67A4FB;
+}
+
+.email-address a {
+  padding-left: 10px;
+  font-weight: 200;
+  float: right;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #686868;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul.projects li {
+  list-style: none;
+  font-size: 20px;
+  a {
+    font-size: 35px;
+  }
+}
+
+header {
+  border: 1px solid #686868;
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+#main_container {
+  border: 1px solid #686868;
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-weight: 200;
+  a {
+    color: #4F76D8;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  a:hover {
+    text-decoration: none;
+    text-shadow: 1px 0px #737373;
+  }
+  h2 {
+    text-shadow: 1px 1px #000;
+    font-size: 60px;
+    font-weight: 100;
+    color: #94B443;
+  }
+}
+
+.section {
+  border-bottom: 1px solid #999999;
+  h2 {
+    width: 27%;
+    margin:0px; 
+  }
+  .content, h2 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .content {
+    border-left: 1px solid #ECECEC;
+    position: relative;
+    width: 70%;
+    padding-left: 10px;
+  }
+}
+
+#scrolly {
+  border: 1px solid #686868;
+  border-right: none;
+  position: fixed;
+  right: -4px;
+  bottom: 0px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  padding: 10px 18px 10px 10px;
+  opacity: 0.5;  
+  cursor: pointer;
+  color: #686868;
+}
+
+#scrolly:hover {
+    opacity: 1;
+    background-color: #686868;
+    color: #FFF;
+}
+
+.sub {
+  font-weight: 100;
+}
+
+.dub {
+  font-weight: 300;
+  font-size: 16px;  
+}
+
+ul li{
+  margin-bottom: 5px;
+  list-style: none;
+  &.fa {
+    display: block;
+  }
+}
+
+.sub-section {
+  border-bottom: 1px solid #ECECEC;
+  margin-bottom: 5px;
+}
