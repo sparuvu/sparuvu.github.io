@@ -1,11 +1,11 @@
 body {
   font-family: "Helvetica Neue";
   color: #686868;
+  margin: 10px;
 }
 
 header {
   text-align: center;
-  background: linear-gradient(top, #686868, #000);
 }
 
 .name {
@@ -13,12 +13,13 @@ header {
   margin: 0px;
   font-weight: 100;
   text-shadow: 1px 1px #5796DC;
+  margin: 0 0 10px 0;
 }
 
 .phone-number {
   float: left;
   padding-left: 20px;
-  color: #416314;
+  color: #94B443;
   span {
     color: #686868;
     padding-left: 10px;
@@ -103,15 +104,13 @@ header {
     border-left: 1px solid #ECECEC;
     position: relative;
     width: 70%;
-    padding-left: 10px;
+    padding: 25px 10px;
   }
 }
 
 #scrolly {
-  border: 1px solid #686868;
-  border-right: none;
   position: fixed;
-  right: -4px;
+  right: -6px;
   bottom: 0px;
   height: 40px;
   width: 40px;
@@ -124,8 +123,6 @@ header {
 
 #scrolly:hover {
     opacity: 1;
-    background-color: #686868;
-    color: #FFF;
 }
 
 .sub {
@@ -142,10 +139,18 @@ ul li{
   list-style: none;
   &.fa {
     display: block;
+    margin-bottom: 10px;
   }
 }
 
 .sub-section {
   border-bottom: 1px solid #ECECEC;
   margin-bottom: 5px;
+  ul {
+    margin-top: 20px;
+  }
+}
+
+.fa-dot-circle-o:before {
+  padding-right: 10px;
 }

@@ -2,12 +2,12 @@
 body {
   font-family: "Helvetica Neue";
   color: #686868;
+  margin: 10px;
 }
 
-/* line 6, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
 header {
   text-align: center;
-  background: linear-gradient(top, #686868, #000000);
 }
 
 /* line 11, ../sass/main.scss */
@@ -16,36 +16,37 @@ header {
   margin: 0px;
   font-weight: 100;
   text-shadow: 1px 1px #5796DC;
+  margin: 0 0 10px 0;
 }
 
-/* line 18, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 .phone-number {
   float: left;
   padding-left: 20px;
-  color: #416314;
+  color: #94B443;
 }
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .phone-number span {
   color: #686868;
   padding-left: 10px;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 .address {
   color: #B74418;
 }
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 .address span {
   color: #686868;
   padding-left: 10px;
 }
 
-/* line 36, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .email-address {
   color: #67A4FB;
 }
 
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .email-address a {
   padding-left: 10px;
   font-weight: 200;
@@ -54,22 +55,22 @@ header {
   text-decoration: none;
   color: #686868;
 }
-/* line 47, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .email-address a:hover {
   text-decoration: none;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 ul.projects li {
   list-style: none;
   font-size: 20px;
 }
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 ul.projects li a {
   font-size: 35px;
 }
 
-/* line 60, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 header {
   border: 1px solid #686868;
   display: block;
@@ -78,7 +79,7 @@ header {
   padding: 20px;
 }
 
-/* line 68, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 #main_container {
   border: 1px solid #686868;
   display: block;
@@ -87,18 +88,18 @@ header {
   padding: 20px;
   font-weight: 200;
 }
-/* line 75, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 #main_container a {
   color: #4F76D8;
   text-decoration: none;
   font-weight: 100;
 }
-/* line 80, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 #main_container a:hover {
   text-decoration: none;
   text-shadow: 1px 0px #737373;
 }
-/* line 84, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 #main_container h2 {
   text-shadow: 1px 1px #000;
   font-size: 60px;
@@ -106,34 +107,32 @@ header {
   color: #94B443;
 }
 
-/* line 92, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 .section {
   border-bottom: 1px solid #999999;
 }
-/* line 94, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .section h2 {
   width: 27%;
   margin: 0px;
 }
-/* line 98, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 .section .content, .section h2 {
   display: inline-block;
   vertical-align: top;
 }
-/* line 102, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .section .content {
   border-left: 1px solid #ECECEC;
   position: relative;
   width: 70%;
-  padding-left: 10px;
+  padding: 25px 10px;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 #scrolly {
-  border: 1px solid #686868;
-  border-right: none;
   position: fixed;
-  right: -4px;
+  right: -6px;
   bottom: 0px;
   height: 40px;
   width: 40px;
@@ -144,36 +143,44 @@ header {
   color: #686868;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 #scrolly:hover {
   opacity: 1;
-  background-color: #686868;
-  color: #FFF;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .sub {
   font-weight: 100;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .dub {
   font-weight: 300;
   font-size: 16px;
 }
 
-/* line 140, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 ul li {
   margin-bottom: 5px;
   list-style: none;
 }
-/* line 143, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 ul li.fa {
   display: block;
+  margin-bottom: 10px;
 }
 
-/* line 148, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 .sub-section {
   border-bottom: 1px solid #ECECEC;
   margin-bottom: 5px;
+}
+/* line 149, ../sass/main.scss */
+.sub-section ul {
+  margin-top: 20px;
+}
+
+/* line 154, ../sass/main.scss */
+.fa-dot-circle-o:before {
+  padding-right: 10px;
 }
