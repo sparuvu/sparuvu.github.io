@@ -19,7 +19,7 @@ body {
   left: 0;
   z-index: 1;
   top: 0;
-  background: linear-gradient(#351a36, #36173d);
+  background: url(../images/header-bg.gif) repeat-x;
 }
 /* line 20, ../sass/demo.scss */
 #header ul {
