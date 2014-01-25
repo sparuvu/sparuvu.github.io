@@ -1,0 +1,139 @@
+body {
+  font-family: 'Helvetica Neue';
+  margin:0px;
+}
+
+#header, #footer {
+  width: 100%;
+  background-color: #2C2C2C;
+  border: 1px solid black;
+}
+
+#header {
+  margin-bottom: 30px;  
+  position: fixed;
+  height: 200px;
+  left:0;
+  z-index: 1;
+  top: 0;
+  background: linear-gradient(#351A36, #36173D);
+   ul {
+    padding: 5px;
+    margin: 0px;
+    position:fixed;
+    right: 0; 
+    li{
+      list-style: none;
+      padding: 5px 10px;
+      font-size: 15px; 
+      a {
+        text-decoration: none;
+        text-decoration: none;
+        text-shadow: 1px 1px #25448E;
+        color: #FFF;
+        font-weight: 100;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 1px solid #66A2FA;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  height: 400px;   
+}
+
+#sidebar {
+  width: 110px;
+  border: 1px solid #000;
+  position: fixed;
+  top: 400px;
+  left: 0;
+  padding: 27px 10px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #F2F8FF;
+  z-index: 2; 
+}
+#main-container, #top-news {
+ display: inline-block;
+ vertical-align: top;
+}
+
+#main-container {
+  padding-left: 250px;
+  margin-top: 230px;
+}
+
+.category {
+  border: 2px solid #000;
+  height: 300px;
+  width: 600px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  border-radius: 3px;
+  position: relative;
+  left: 550px;
+  .title {
+    padding: 5px;
+    border-bottom: 1px solid #ECECEC;
+    text-shadow: 1px 1px #000;
+    font-weight: 100;
+  }
+}
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left, .right {
+  background-color: #9E9E9E; 
+  width: 40px;
+  height: 242px;
+  opacity: 0.2;
+  &:hover {
+    background-color: #353535;     
+  }
+}
+
+.Technology {
+  background-color: #7DBC5D;
+  color: #83AF40;
+}
+
+.Politics {
+  background-color: #70C7FF;
+  color: #5981F4;
+}
+
+.Sports {
+  background-color: #E9C9C9;
+  color: #B62E30;
+}
+
+.Fashion {
+  background-color: #ECBD7E;
+  color: #DF8A19;
+}
+
+.Movies {
+  background-color: #77427E;
+  color: #39112D;
+}
+
+#top-news {
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 100%; 
+  width: 400px;  
+}
+
+#sidebar2 {
+  border: 1px solid green;
+}

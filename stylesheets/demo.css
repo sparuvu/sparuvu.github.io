@@ -1,0 +1,164 @@
+/* line 1, ../sass/demo.scss */
+body {
+  font-family: 'Helvetica Neue';
+  margin: 0px;
+}
+
+/* line 6, ../sass/demo.scss */
+#header, #footer {
+  width: 100%;
+  background-color: #2C2C2C;
+  border: 1px solid black;
+}
+
+/* line 12, ../sass/demo.scss */
+#header {
+  margin-bottom: 30px;
+  position: fixed;
+  height: 200px;
+  left: 0;
+  z-index: 1;
+  top: 0;
+  background: linear-gradient(#351a36, #36173d);
+}
+/* line 20, ../sass/demo.scss */
+#header ul {
+  padding: 5px;
+  margin: 0px;
+  position: fixed;
+  right: 0;
+}
+/* line 25, ../sass/demo.scss */
+#header ul li {
+  list-style: none;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+/* line 29, ../sass/demo.scss */
+#header ul li a {
+  text-decoration: none;
+  text-decoration: none;
+  text-shadow: 1px 1px #25448E;
+  color: #FFF;
+  font-weight: 100;
+}
+/* line 35, ../sass/demo.scss */
+#header ul li a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #66A2FA;
+}
+
+/* line 44, ../sass/demo.scss */
+#footer {
+  height: 400px;
+}
+
+/* line 48, ../sass/demo.scss */
+#sidebar {
+  width: 110px;
+  border: 1px solid #000;
+  position: fixed;
+  top: 400px;
+  left: 0;
+  padding: 27px 10px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #F2F8FF;
+  z-index: 2;
+}
+
+/* line 59, ../sass/demo.scss */
+#main-container, #top-news {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 64, ../sass/demo.scss */
+#main-container {
+  padding-left: 250px;
+  margin-top: 230px;
+}
+
+/* line 69, ../sass/demo.scss */
+.category {
+  border: 2px solid #000;
+  height: 300px;
+  width: 600px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  border-radius: 3px;
+  position: relative;
+  left: 550px;
+}
+/* line 79, ../sass/demo.scss */
+.category .title {
+  padding: 5px;
+  border-bottom: 1px solid #ECECEC;
+  text-shadow: 1px 1px #000;
+  font-weight: 100;
+}
+
+/* line 87, ../sass/demo.scss */
+.left {
+  float: left;
+}
+
+/* line 91, ../sass/demo.scss */
+.right {
+  float: right;
+}
+
+/* line 95, ../sass/demo.scss */
+.left, .right {
+  background-color: #9E9E9E;
+  width: 40px;
+  height: 242px;
+  opacity: 0.2;
+}
+/* line 100, ../sass/demo.scss */
+.left:hover, .right:hover {
+  background-color: #353535;
+}
+
+/* line 105, ../sass/demo.scss */
+.Technology {
+  background-color: #7DBC5D;
+  color: #83AF40;
+}
+
+/* line 110, ../sass/demo.scss */
+.Politics {
+  background-color: #70C7FF;
+  color: #5981F4;
+}
+
+/* line 115, ../sass/demo.scss */
+.Sports {
+  background-color: #E9C9C9;
+  color: #B62E30;
+}
+
+/* line 120, ../sass/demo.scss */
+.Fashion {
+  background-color: #ECBD7E;
+  color: #DF8A19;
+}
+
+/* line 125, ../sass/demo.scss */
+.Movies {
+  background-color: #77427E;
+  color: #39112D;
+}
+
+/* line 130, ../sass/demo.scss */
+#top-news {
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 100%;
+  width: 400px;
+}
+
+/* line 137, ../sass/demo.scss */
+#sidebar2 {
+  border: 1px solid green;
+}
