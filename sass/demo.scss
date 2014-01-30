@@ -25,10 +25,11 @@ body {
 ul.fixed-menu {
   padding: 5px;
   margin: 0px;
-  position:fixed;
+  position: fixed;
   right: 0;
-  top: 230px;
+  bottom: 10px;
   background-color: #303030;
+  box-shadow: -3px 3px 1px #000;
   li{
     list-style: none;
     padding: 7px 5px;
@@ -60,19 +61,36 @@ ul.fixed-menu {
   width: 15%;
   border: 1px solid #000;
   padding: 27px 10px;
-  background-color: #303030;;
-  top: 230px;
+  background-color: #303030;
+  bottom: 205px;
   position: fixed;
+  height: 460px;
+  box-shadow: 3px 3px 1px #000;
+  li {
+    padding: 15px 5px;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    font-weight: 100;
+    font-size: 25px;
+    cursor: pointer;
+    &:hover {
+      background-color: #3A6CCB;
+      color: #000;
+      font-weight: 200;
+      border-top: 2px solid #000;
+      border-bottom: 2px solid #000;
+    }
+  }
 }
 
-.categorized-news, #top-news, #sidebar {
+.categorized-news, #top-news{
  display: inline-block;
  vertical-align: top;
 }
 
 #main-container {
-  margin-top: 230px;
-  width:75%;
+  margin-top: 3px;
+  width: 75%;
   background-color: #FFF;
   padding: 10px;
   margin-left: 17%;
@@ -80,18 +98,22 @@ ul.fixed-menu {
 
 .category {
   border: 2px solid #000;
-  height: 220px;
-  width: 450px;
+  height: 280px;
+  width: 534px;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 300;
   border-radius: 3px;
+  display: inline-block;
+  &:hover {
+    box-shadow: 0 3px 2px #999;
+  }
   .title {
     padding: 5px;
     border-bottom: 1px double;
     font-weight: 100;
     background: #000 url(../images/title-bg.png);
-    background-size: 454px 36px;
+    background-size: 536px 36px;
     color: #FFF;
   }
 }
@@ -107,7 +129,7 @@ ul.fixed-menu {
 .left, .right {
   background-color: #9E9E9E;
   width: 40px;
-  height: 188px;
+  height: 250px;
   opacity: 0.2;
   &:hover {
     background-color: #353535;
@@ -117,8 +139,9 @@ ul.fixed-menu {
 #top-news {
   border: 1px solid #000;
   border-radius: 4px;
-  height: 100%;
-  width: 57%;
+  height: 500px;
+  margin: 2% 10%;
+  width: 80%;
 }
 
 #omni-search {
@@ -135,4 +158,20 @@ ul.fixed-menu {
   width: 300px;
   font-size: 17px;
   border: none;
+}
+
+#ribbon {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#flash-news {
+  width: 76%;
+  height: 170px;
+  margin: 4% 1% 0 17%;
+  border-radius: 3px;
+  background: rgba(1, 1, 1, 0.6);
+  padding: 4px;
 }
