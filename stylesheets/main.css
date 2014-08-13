@@ -2,27 +2,28 @@
 body {
   font-family: "Helvetica Neue";
   color: #686868;
+  background-color: #F0FFFF;
   margin: 10px;
 }
 
-/* line 7, ../sass/main.scss */
+/* line 8, ../sass/main.scss */
 header {
   text-align: center;
 }
-/* line 9, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 header a {
   text-decoration: none;
 }
-/* line 11, ../sass/main.scss */
+/* line 12, ../sass/main.scss */
 header a:hover {
   text-decoration: none;
 }
-/* line 14, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 header a span {
   color: #686868;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .name {
   font-size: 100px;
   margin: 0px;
@@ -31,19 +32,19 @@ header a span {
   margin: 0 0 10px 0;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 .phone-number {
   float: left;
   padding-left: 20px;
   color: #94B443;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 .address {
   color: #B74418;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 .email-address {
   color: #67A4FB;
   padding-left: 10px;
@@ -51,17 +52,17 @@ header a span {
   padding-right: 20px;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 ul.projects li {
   list-style: none;
   font-size: 20px;
 }
-/* line 48, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 ul.projects li a {
   font-size: 35px;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 header {
   border: 1px solid #686868;
   display: block;
@@ -70,7 +71,7 @@ header {
   padding: 20px;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 #main_container {
   border: 1px solid #686868;
   display: block;
@@ -79,18 +80,18 @@ header {
   padding: 20px;
   font-weight: 200;
 }
-/* line 68, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 #main_container a {
   color: #4F76D8;
   text-decoration: none;
   font-weight: 100;
 }
-/* line 73, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 #main_container a:hover {
   text-decoration: none;
   text-shadow: 1px 0px #737373;
 }
-/* line 77, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 #main_container h2 {
   text-shadow: 1px 1px #000;
   font-size: 60px;
@@ -98,21 +99,21 @@ header {
   color: #94B443;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .section {
   border-bottom: 1px solid #999999;
 }
-/* line 87, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 .section h2 {
   width: 27%;
   margin: 0px;
 }
-/* line 91, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .section .content, .section h2 {
   display: inline-block;
   vertical-align: top;
 }
-/* line 95, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 .section .content {
   border-left: 1px solid #ECECEC;
   position: relative;
@@ -120,7 +121,7 @@ header {
   padding: 25px 10px;
 }
 
-/* line 103, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 #scrolly {
   position: fixed;
   right: -6px;
@@ -134,54 +135,54 @@ header {
   color: #686868;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 #scrolly:hover {
   opacity: 1;
 }
 
-/* line 120, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 .sub {
   font-weight: 100;
 }
 
-/* line 124, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .dub {
   font-weight: 300;
   font-size: 16px;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 ul li {
   margin-bottom: 5px;
   list-style: none;
 }
-/* line 132, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 ul li.fa {
   display: block;
   margin-bottom: 10px;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 .sub-section {
   border-bottom: 1px solid #ECECEC;
   margin-bottom: 5px;
 }
-/* line 141, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 .sub-section ul {
   margin-top: 20px;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .fa-dot-circle-o:before {
   padding-right: 10px;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 .sub-section-title {
   font-size: 0.75em;
   margin: 5px 0px;
 }
-/* line 153, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 .sub-section-title .sub {
   font-size: 1.5em;
 }
