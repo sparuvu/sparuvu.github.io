@@ -1,4 +1,1 @@
-sparuvu.github.io
-=================
-
-wohooo! my github page.
+http://sparuvu.github.io/
