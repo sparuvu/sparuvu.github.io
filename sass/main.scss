@@ -1,3 +1,6 @@
+@import "compass/support";
+@import "compass/css3";
+
 body {
   font-family: "Helvetica Neue";
   color: #686868;
@@ -103,10 +106,10 @@ header {
 
 #scrolly, #download {
   position: fixed;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 25px;
   border-radius: 5px;
-  padding: 10px 18px 10px 10px;
+  padding: 10px 15px 10px 10px;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -121,13 +124,57 @@ header {
 }
 
 #download {
-  left: -6px;
+  left: 15px;
   bottom: 10px;
-  color: #686868  ;
+  color: #FFF;
+  background-color: #686868;
+  border: 1px solid;
+  &:before {
+    padding-right: 10px;
+  }
+  .download-file {
+    opacity: 0;
+    text-decoration: none;
+  }
+  @include transition-property(border-radius, color, background-color, width);
+  @include transition-duration(2s);
   &:hover {
     opacity: 1;
+    width:9%;
+    background-color: #FFF;
+    color: #686868;
+    .download-file {
+      opacity: 1;
+      display: inline-block;
+      -webkit-animation: showIcons 2s;
+      text-decoration: none;
+    }
   }
 }
+
+@-webkit-keyframes showIcons {
+  from {
+    opacity: 0;
+    height: 30px;
+  }
+  to {
+    opacity: 1;
+    height: 25%;
+  }
+}
+
+#download-pdf {
+  color: #CC4C41;
+}
+
+#download-word {
+  color: #3D608E;
+}
+
+#download-text {
+  color: #000;
+}
+
 
 .sub {
   font-weight: 100;

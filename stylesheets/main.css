@@ -1,28 +1,28 @@
-/* line 1, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 body {
   font-family: "Helvetica Neue";
   color: #686868;
   margin: 10px;
 }
 
-/* line 7, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 header {
   text-align: center;
 }
-/* line 9, ../sass/main.scss */
+/* line 12, ../sass/main.scss */
 header a {
   text-decoration: none;
 }
-/* line 11, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 header a:hover {
   text-decoration: none;
 }
-/* line 14, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 header a span {
   color: #686868;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .name {
   font-size: 100px;
   margin: 0px;
@@ -31,19 +31,19 @@ header a span {
   margin: 0 0 10px 0;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 .phone-number {
   float: left;
   padding-left: 20px;
   color: #94B443;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .address {
   color: #B74418;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .email-address {
   color: #67A4FB;
   padding-left: 10px;
@@ -51,17 +51,17 @@ header a span {
   padding-right: 20px;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 ul.projects li {
   list-style: none;
   font-size: 20px;
 }
-/* line 48, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 ul.projects li a {
   font-size: 35px;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 header {
   border: 1px solid #686868;
   display: block;
@@ -70,7 +70,7 @@ header {
   padding: 20px;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 #main_container {
   border: 1px solid #686868;
   display: block;
@@ -79,18 +79,18 @@ header {
   padding: 20px;
   font-weight: 200;
 }
-/* line 68, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 #main_container a {
   color: #4F76D8;
   text-decoration: none;
   font-weight: 100;
 }
-/* line 73, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 #main_container a:hover {
   text-decoration: none;
   text-shadow: 1px 0px #737373;
 }
-/* line 77, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 #main_container h2 {
   text-shadow: 1px 1px #000;
   font-size: 60px;
@@ -98,21 +98,21 @@ header {
   color: #94B443;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 .section {
   border-bottom: 1px solid #999999;
 }
-/* line 87, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .section h2 {
   width: 27%;
   margin: 0px;
 }
-/* line 91, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .section .content, .section h2 {
   display: inline-block;
   vertical-align: top;
 }
-/* line 95, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .section .content {
   border-left: 1px solid #ECECEC;
   position: relative;
@@ -120,82 +120,136 @@ header {
   padding: 25px 10px;
 }
 
-/* line 104, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 #scrolly, #download {
   position: fixed;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 25px;
   border-radius: 5px;
-  padding: 10px 18px 10px 10px;
+  padding: 10px 15px 10px 10px;
   opacity: 0.5;
   cursor: pointer;
 }
 
-/* line 114, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 #scrolly {
   right: -6px;
   bottom: 0px;
   color: #686868;
 }
-/* line 118, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 #scrolly:hover {
   opacity: 1;
 }
 
-/* line 123, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 #download {
-  left: -6px;
+  left: 15px;
   bottom: 10px;
-  color: #686868;
+  color: #FFF;
+  background-color: #686868;
+  border: 1px solid;
+  -moz-transition-property: border-radius, color, background-color, width;
+  -o-transition-property: border-radius, color, background-color, width;
+  -webkit-transition-property: border-radius, color, background-color, width;
+  transition-property: border-radius, color, background-color, width;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
 }
-/* line 127, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
+#download:before {
+  padding-right: 10px;
+}
+/* line 135, ../sass/main.scss */
+#download .download-file {
+  opacity: 0;
+  text-decoration: none;
+}
+/* line 141, ../sass/main.scss */
 #download:hover {
   opacity: 1;
+  width: 9%;
+  background-color: #FFF;
+  color: #686868;
+}
+/* line 146, ../sass/main.scss */
+#download:hover .download-file {
+  opacity: 1;
+  display: inline-block;
+  -webkit-animation: showIcons 2s;
+  text-decoration: none;
 }
 
-/* line 132, ../sass/main.scss */
+@-webkit-keyframes showIcons {
+  from {
+    opacity: 0;
+    height: 30px;
+  }
+  to {
+    opacity: 1;
+    height: 25%;
+  }
+}
+/* line 166, ../sass/main.scss */
+#download-pdf {
+  color: #CC4C41;
+}
+
+/* line 170, ../sass/main.scss */
+#download-word {
+  color: #3D608E;
+}
+
+/* line 174, ../sass/main.scss */
+#download-text {
+  color: #000;
+}
+
+/* line 179, ../sass/main.scss */
 .sub {
   font-weight: 100;
 }
 
-/* line 136, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .dub {
   font-weight: 300;
   font-size: 16px;
 }
 
-/* line 141, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 ul li {
   margin-bottom: 5px;
   list-style: none;
 }
-/* line 144, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 ul li.fa {
   display: block;
   margin-bottom: 10px;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 .sub-section {
   border-bottom: 1px solid #ECECEC;
   margin-bottom: 5px;
 }
-/* line 153, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .sub-section ul {
   margin-top: 20px;
 }
 
-/* line 158, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .fa-dot-circle-o:before {
   padding-right: 10px;
 }
 
-/* line 162, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .sub-section-title {
   font-size: 0.75em;
   margin: 5px 0px;
 }
-/* line 165, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .sub-section-title .sub {
   font-size: 1.5em;
 }
