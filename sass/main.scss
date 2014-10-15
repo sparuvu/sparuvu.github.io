@@ -140,7 +140,7 @@ header {
   @include transition-duration(2s);
   &:hover {
     opacity: 1;
-    width:9%;
+    width:150px;
     background-color: #FFF;
     color: #686868;
     .download-file {

@@ -149,13 +149,13 @@ header {
   color: #FFF;
   background-color: #686868;
   border: 1px solid;
+  -webkit-transition-property: border-radius, color, background-color, width;
   -moz-transition-property: border-radius, color, background-color, width;
   -o-transition-property: border-radius, color, background-color, width;
-  -webkit-transition-property: border-radius, color, background-color, width;
   transition-property: border-radius, color, background-color, width;
+  -webkit-transition-duration: 2s;
   -moz-transition-duration: 2s;
   -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
   transition-duration: 2s;
 }
 /* line 132, ../sass/main.scss */
@@ -170,7 +170,7 @@ header {
 /* line 141, ../sass/main.scss */
 #download:hover {
   opacity: 1;
-  width: 9%;
+  width: 150px;
   background-color: #FFF;
   color: #686868;
 }
@@ -183,15 +183,19 @@ header {
 }
 
 @-webkit-keyframes showIcons {
+  /* line 156, ../sass/main.scss */
   from {
     opacity: 0;
     height: 30px;
   }
+
+  /* line 160, ../sass/main.scss */
   to {
     opacity: 1;
     height: 25%;
   }
 }
+
 /* line 166, ../sass/main.scss */
 #download-pdf {
   color: #CC4C41;
