@@ -2,3 +2,4 @@
 /.project
 /target
 bower_components
+node_modules
