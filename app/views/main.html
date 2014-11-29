@@ -1,0 +1,94 @@
+<header>
+  <a name="top"></a>
+  <h2 class="name">{{resume.name}}</h2>
+  <a class="phone-number pull-left fa fa-phone" target="_blank" href="{{resume.phone.href}}">
+    <span>{{resume.phone.value}}</span>
+  </a>
+  <a class="address fa fa-map-marker" target="_blank" href="{{resume.address.href}}">
+      <span>{{resume.address.value}}</span>
+  </a>
+  <a class="email-address fa fa-envelope pull-right" target="_blank" href="{{resume.email.href}}">
+    <span>{{resume.email.value}}</span>
+  </a>
+</header>
+<div id="resume-container">
+  <section id="objective">
+    <h2>Objective</h2>
+    <div class="content">
+      <p>{{resume.objective}}</p>
+    </div>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="content">
+      <div ng-repeat="exp in resume.experience">
+        <div class="sub-section-title">
+          <span class="company-name fa-2x">{{exp.company}} [ {{exp.title}} ]</span>
+          <span class="pull-right sub">[ {{exp.date}} ]</span>
+        </div>
+        <div class="sub-section" ng-repeat="project in exp.projects">
+          <span class="dub">{{project.name}}</span>
+          <span class="pull-right sub">[ {{project.date}} ]</span>
+          <ul>
+            <li class="fa fa-dot-circle-o" ng-repeat="projectDetail in project.details">
+              {{projectDetail}}
+            </li>
+            <li class="fa fa-dot-circle-o">
+              <span class="sub">Technologies Used </span> {{project.technologiesUsed}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="professional-summary">
+    <h2>Professional Summary</h2>
+     <div class="content">
+      <ul>
+        <li class="fa fa-dot-circle-o" ng-repeat="summary in resume.professionalSummary">{{summary}}</li>
+      </ul>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="content">
+      <ul>
+        <li class="fa fa-dot-circle-o" ng-repeat="skill in resume.skills">
+          <span>{{skill.category}}</span>
+          <p><span class="sub">Proficient in</span> {{skill.proficientIn}}</p>
+          <p><span class="sub">Familiar with</span> {{skill.familiarWith}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="content">
+      <ul>
+        <li class="fa fa-dot-circle-o" ng-repeat="edu in resume.education">
+          <span>{{edu.degree}}, {{edu.university}}, {{edu.place}}</span>
+          <span class="sub pull-right">[ {{edu.date}} ]</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="content">
+      <div class="sub-section" ng-repeat="project in resume.sideProjects">
+        <span class="dub fa-2x">{{project.name}}</span>
+        <span class="pull-right sub">[ {{project.date}} ]</span>
+        <ul>
+          <li class="fa fa-dot-circle-o" ng-repeat="detail in project.details">{{detail}}</li>
+          <li class="fa fa-dot-circle-o">
+            <span class="sub">Technologies Used </span> {{project.technologiesUsed}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+<a href="#top" id="scrolly" ng-click="scrolly()" title="Scroll to the top" class="fa fa-2x  fa-caret-square-o-up"></a>
+<div class="fa fa-2x fa-download" id="download">
+  <a target="_self" href="resume/Sundeep%20Paruvu.pdf" id="download-pdf" title="Download in PDF format" class="download-file fa fa-1x fa-file-pdf-o"></a>
+  <a target="_self" href="resume/Sundeep%20Paruvu.docx" id="download-word" title="Download in Word format" class="download-file fa fa-1x fa-file-word-o"></a>
+  <a target="_self" href="resume/Sundeep%20Paruvu.rtf" id="download-text" title="Download in Text format" class="download-file fa fa-1x fa-file-text"></a>
+</div>
