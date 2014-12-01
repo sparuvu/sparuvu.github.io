@@ -23,12 +23,14 @@
     <div class="content">
       <div ng-repeat="exp in resume.experience">
         <div class="sub-section-title">
-          <span class="company-name fa-2x">{{exp.company}} [ {{exp.title}} ]</span>
+          <span class="company-name fa-2x">
+            <a ng-href="{{exp.companyUrl}}">{{exp.company}}</a> [ {{exp.title}} ]</span>
           <span class="pull-right sub">[ {{exp.date}} ]</span>
         </div>
         <div class="sub-section" ng-repeat="project in exp.projects">
           <span class="dub">{{project.name}}</span>
           <span class="pull-right sub">[ {{project.date}} ]</span>
+          <p class="project-description">{{project.description}}</p>
           <ul>
             <li class="fa fa-dot-circle-o" ng-repeat="projectDetail in project.details">
               {{projectDetail}}
@@ -77,6 +79,7 @@
       <div class="sub-section" ng-repeat="project in resume.sideProjects">
         <span class="dub fa-2x">{{project.name}}</span>
         <span class="pull-right sub">[ {{project.date}} ]</span>
+        <p class="project-description">{{project.description}}</p>
         <ul>
           <li class="fa fa-dot-circle-o" ng-repeat="detail in project.details">{{detail}}</li>
           <li class="fa fa-dot-circle-o">

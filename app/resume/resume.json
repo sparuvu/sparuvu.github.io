@@ -16,11 +16,13 @@ var resume = {
 	"experience": [
 		{
 			"company": "Cerner Corp.",
+			"companyUrl": "http://www.cerner.com/",
 			"title": "Software Engineer",
 			"date": "Nov, 2012 – Present",
 			"projects": [
 				{
-					"name": "Healthe Intent Service Deployment Chef Cookbook",
+					"name": "Healthe Intent Services Deployment Chef Cookbooks",
+					"description": "Cookbooks to deploy the services of Population Health Application Services.",
 					"date": "Sept, 2014 - Present",
 					"details": [
 						"Revamped the cookbook from scratch.",
@@ -32,6 +34,7 @@ var resume = {
 				},
 				{
 					"name": "Red-Tape",
+					"description": "System that enforces the authorization of the Healthe Intent data between the applications.",
 					"date": "June, 2014 - Present",
 					"details": [
 						"Designed the application from scratch.",
@@ -44,6 +47,7 @@ var resume = {
 				},
 				{
 					"name": "Proper Channel",
+					"description": "GUI for red-tape that enables the user to CRUD authorization policies.",
 					"date": "June, 2014 – Present",
 					"details": [
 						"Fixed lots of Frontend glitches.",
@@ -55,26 +59,18 @@ var resume = {
 				},
 				{
 					"name": "Jolly Rogers",
+					"description": "Console to test the healthe intent services.",
 					"date": "Dec, 2013 – Present",
 					"details": [
-						"Designed the application from scratch.",
-						"Set the basic structure/framework.",
-						"Developed 70% of the application.",
-						"Point of contact of the application."
+						"Developed several critical pieces of the application.",
+						"Worked on setting up the basic structure/framework.",
+						"Point of contact for the application"
 					],
 					"technologiesUsed": "Ruby on Rails, Object Oriented JavaScript, jQuery, CSS, Chef."
 				},
 				{
-					"name": "Desiccator",
-					"date": "Dec, 2013 – Present",
-					"details": [
-						"Designed and developed the front-end of the application.",
-						"Fixed some potential glitches."
-					],
-					"technologiesUsed": "Ruby on Rails, CSS."
-				},
-				{
-					"name": "Population Health Application Services",
+					"name": "Healthe Intent Application Services",
+					"description": "ETLs the data from upstream and provides the REST end points.",
 					"date": "Dec, 2012 - Present",
 					"details": [
 						"Have been developing the RESTful services from scratch.",
@@ -88,11 +84,13 @@ var resume = {
 		},
 		{
 			"company": "Jobvite Inc.",
+			"companyUrl": "http://www.jobvite.com/",
 			"title": "Software UI Engineer",
 			"date":  "Jul, 2011 – Oct, 2012",
 			"projects": [
 				{
 					"name": "Source",
+					"description": "Application that helps the recruiters to find the right talent.",
 					"date": "May 2012 – Nov, 2012",
 					"details": [
 						"Developed several features in the most engaging areas (like contacts page) of the application.",
@@ -105,6 +103,7 @@ var resume = {
 				},
 				{
 					"name": "Share",
+					"description": "Facebook application that enables the users to search/apply for jobs within the context of facebook.",
 					"date": "July, 2011 - May, 2012",
 					"details": [
 						"Developed about 40% of the application.",
@@ -117,11 +116,13 @@ var resume = {
 		},
 		{
 			"company": "University of Tulsa",
+			"companyUrl": "http://www.utulsa.edu/",
 			"title": "Web Developer",
 			"date": "May, 2010 – Dec, 2010",
 			"projects": [
 				{
 					"name": "TU Online Housing and Dining Services",
+					"description": "Web application to maintain the housing and dining services.",
 					"date": "May 2010 - Dec, 2010",
 					"details": [
 						"Developed, Tested and maintained the University Of Tulsa (TU) Housing and Dining services website.",
@@ -187,6 +188,7 @@ var resume = {
 	"sideProjects" : [
 		{
 		  "name": "Desiccator",
+		  "description": "Tool to track the github pull requests.",
 		  "date": "Dec, 2013",
 		  "details": [
 		    "Designed and developed the front-end of the application.",
@@ -196,6 +198,7 @@ var resume = {
 		},
 		{
 		  "name": "JsonFrill",
+		  "description": "jQuery plugin to format the json",
 		  "date": "Feb, 2013",
 		  "details": [
 		    "jQuery library to format the json.",
@@ -206,23 +209,25 @@ var resume = {
 		},
 		{
 		  "name": "NGen Search tool",
+		  "description": "Application that consolidates the searchs from multiple Search engines.",
 		  "date": "Apr, 2008",
 		  "details": [
 		    "Scraps the results of the search from search engines like Google, Yahoo, AOL.",
 		    "Stores the results locally to save the Internet bandwidth.",
 		    "Periodically updates the cached searches and serves them when needed."
 		  ],
-		  "technologiesUsed": "Used: Visual Studios, C#"
+		  "technologiesUsed": "C#"
 		},
 		{
 		  "name": "SafePad",
+		  "description": "Application that enables the user to secure their textual data",
 		  "date": "Apr, 2007",
 		  "details": [
 		    "RTF format based textual notepad.",
 		    "Multi-layered secured textual files.",
 		    "Implemented pseudo cloud architecture."
 		  ],
-		  "technologiesUsed": "Used: Visual Studios, C#"
+		  "technologiesUsed": "C#"
 		}
   ]
 }
