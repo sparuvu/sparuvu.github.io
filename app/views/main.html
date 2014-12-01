@@ -24,7 +24,7 @@
       <div ng-repeat="exp in resume.experience">
         <div class="sub-section-title">
           <span class="company-name fa-2x">
-            <a ng-href="{{exp.companyUrl}}">{{exp.company}}</a> [ {{exp.title}} ]</span>
+            <a target="_blank" ng-href="{{exp.companyUrl}}">{{exp.company}}</a> [ {{exp.title}} ]</span>
           <span class="pull-right sub">[ {{exp.date}} ]</span>
         </div>
         <div class="sub-section" ng-repeat="project in exp.projects">
